@@ -1,0 +1,102 @@
+### Java ###
+# Компилированные классы
+*.class
+*.war
+*.ear
+*.jar
+
+# Файлы сборки
+target/
+build/
+out/
+bin/
+.gradle/
+*.iml
+*.ipr
+*.iws
+
+### IDE ###
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ids
+*.orig
+atlassian-ide-plugin.xml
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Окружение ###
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Логи и дампы
+*.log
+*.log.*
+*.pid
+*.seed
+*.dump
+*.hprof
+
+### Конфигурации ###
+# Файлы с паролями и ключами
+*.properties
+*.cfg
+*.conf
+*.config
+
+# Исключаем персональные конфиги
+/config/
+!/config/example.properties
+
+# Исключаем локальные настройки
+local.properties
+local.env
+.env
+.env.local
+.env.*.local
+
+### Базы данных ###
+# Файлы H2
+*.mv.db
+*.trace.db
+
+### Другое ###
+# Файлы зависимостей
+dependency-reduced-pom.xml
+
+# Файлы тестов
+coverage/
+.apt_generated/
+
+# Файлы документации
+doc/api/
+
+# Файлы операционных систем
+*~
+*.swp
+*.swo
