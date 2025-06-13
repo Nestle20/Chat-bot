@@ -39,7 +39,7 @@ Beta: Все основные функции реализованы, возмо�
 - Логика обработки ответов и расчёта баллов (TISSBot)
 - Инициализация и запуск бота (Main)
 
-![tiss_bot_architecture](https://github.com/user-attachments/assets/tiss_architecture_diagram.png)
+![tiss_bot_architecture](diagramm.png)
 
 # Зависимости
 
